@@ -1,0 +1,7 @@
+version: '3'
+services:
+    crawler:
+        image: derhenning/mopsy-notifier:latest
+        environment:
+            SMTP_SERVER: 
+            SMTP_PORT:
